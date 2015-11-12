@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231B88421BEAF28400174AD7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B88411BEAF28400174AD7 /* Login.swift */; };
 		3D71A61D1BEAE59E00FDD533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71A61C1BEAE59E00FDD533 /* AppDelegate.swift */; };
 		3D71A61F1BEAE59E00FDD533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71A61E1BEAE59E00FDD533 /* ViewController.swift */; };
 		3D71A6221BEAE59E00FDD533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71A6201BEAE59E00FDD533 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231B88411BEAF28400174AD7 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		3D71A6191BEAE59E00FDD533 /* Buzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71A61C1BEAE59E00FDD533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D71A61E1BEAE59E00FDD533 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		3D71A61B1BEAE59E00FDD533 /* Buzz */ = {
 			isa = PBXGroup;
 			children = (
+				231B88411BEAF28400174AD7 /* Login.swift */,
 				3D71A61C1BEAE59E00FDD533 /* AppDelegate.swift */,
 				3D71A61E1BEAE59E00FDD533 /* ViewController.swift */,
 				3D71A6201BEAE59E00FDD533 /* Main.storyboard */,
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231B88421BEAF28400174AD7 /* Login.swift in Sources */,
 				3D71A61F1BEAE59E00FDD533 /* ViewController.swift in Sources */,
 				3D71A61D1BEAE59E00FDD533 /* AppDelegate.swift in Sources */,
 			);
@@ -386,6 +390,7 @@
 				3D71A6381BEAE59E00FDD533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D71A6391BEAE59E00FDD533 /* Build configuration list for PBXNativeTarget "BuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +399,7 @@
 				3D71A63B1BEAE59E00FDD533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
