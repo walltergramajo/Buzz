@@ -13,6 +13,10 @@
 		3D71A6241BEAE59E00FDD533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D71A6231BEAE59E00FDD533 /* Assets.xcassets */; };
 		3D71A6271BEAE59E00FDD533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71A6251BEAE59E00FDD533 /* LaunchScreen.storyboard */; };
 		3D71A6321BEAE59E00FDD533 /* BuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71A6311BEAE59E00FDD533 /* BuzzTests.swift */; };
+		3DEEA04F1BF521F60059902E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA04E1BF521F60059902E /* Bolts.framework */; };
+		3DEEA0531BF5220B0059902E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */; };
+		3DEEA0541BF5220B0059902E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */; };
+		3DEEA0551BF5220B0059902E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 		3D71A62D1BEAE59E00FDD533 /* BuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D71A6311BEAE59E00FDD533 /* BuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzTests.swift; sourceTree = "<group>"; };
 		3D71A6331BEAE59E00FDD533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DEEA04D1BF51D5E0059902E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3DEEA04E1BF521F60059902E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEEA0551BF5220B0059902E /* FBSDKShareKit.framework in Frameworks */,
+				3DEEA04F1BF521F60059902E /* Bolts.framework in Frameworks */,
+				3DEEA0531BF5220B0059902E /* FBSDKCoreKit.framework in Frameworks */,
+				3DEEA0541BF5220B0059902E /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 		3D71A6101BEAE59E00FDD533 = {
 			isa = PBXGroup;
 			children = (
+				3DEEA04D1BF51D5E0059902E /* Bridging-Header.h */,
 				3D71A61B1BEAE59E00FDD533 /* Buzz */,
 				3D71A6301BEAE59E00FDD533 /* BuzzTests */,
 				3D71A61A1BEAE59E00FDD533 /* Products */,
@@ -80,6 +94,10 @@
 				3D71A61C1BEAE59E00FDD533 /* AppDelegate.swift */,
 				3D71A61E1BEAE59E00FDD533 /* ViewController.swift */,
 				3D71A6201BEAE59E00FDD533 /* Main.storyboard */,
+				3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */,
+				3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */,
+				3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */,
+				3DEEA04E1BF521F60059902E /* Bolts.framework */,
 				3D71A6231BEAE59E00FDD533 /* Assets.xcassets */,
 				3D71A6251BEAE59E00FDD533 /* LaunchScreen.storyboard */,
 				3D71A6281BEAE59E00FDD533 /* Info.plist */,
@@ -146,6 +164,7 @@
 				TargetAttributes = {
 					3D71A6181BEAE59E00FDD533 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 7Q2D237A53;
 					};
 					3D71A62C1BEAE59E00FDD533 = {
 						CreatedOnToolsVersion = 7.1;
@@ -325,10 +344,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Buzz",
+				);
 				INFOPLIST_FILE = Buzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buzz.Buzz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buzz.BuzzSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -336,10 +361,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Buzz",
+				);
 				INFOPLIST_FILE = Buzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.buzz.Buzz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buzz.BuzzSocial;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -386,6 +417,7 @@
 				3D71A6381BEAE59E00FDD533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D71A6391BEAE59E00FDD533 /* Build configuration list for PBXNativeTarget "BuzzTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +426,7 @@
 				3D71A63B1BEAE59E00FDD533 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
