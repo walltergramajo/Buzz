@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		231B88421BEAF28400174AD7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B88411BEAF28400174AD7 /* Login.swift */; };
+		23AA95381BF57DBD000D4C60 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 23AA95371BF57DBD000D4C60 /* Assets */; };
 		3D1D52E11BF56403004ABF54 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DD1BF56403004ABF54 /* Bolts.framework */; };
 		3D1D52E21BF56403004ABF54 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DE1BF56403004ABF54 /* FBSDKCoreKit.framework */; };
 		3D1D52E31BF56403004ABF54 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DF1BF56403004ABF54 /* FBSDKLoginKit.framework */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		231B88411BEAF28400174AD7 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		23AA95371BF57DBD000D4C60 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
 		3D1D52DD1BF56403004ABF54 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
 		3D1D52DE1BF56403004ABF54 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3D1D52DF1BF56403004ABF54 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		3D71A6101BEAE59E00FDD533 = {
 			isa = PBXGroup;
 			children = (
+				23AA95371BF57DBD000D4C60 /* Assets */,
 				3DEEA04D1BF51D5E0059902E /* Bridging-Header.h */,
 				3D71A61B1BEAE59E00FDD533 /* Buzz */,
 				3D71A6301BEAE59E00FDD533 /* BuzzTests */,
@@ -167,7 +170,7 @@
 				TargetAttributes = {
 					3D71A6181BEAE59E00FDD533 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = 7Q2D237A53;
+						DevelopmentTeam = HRUTVZT5U2;
 					};
 					3D71A62C1BEAE59E00FDD533 = {
 						CreatedOnToolsVersion = 7.1;
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23AA95381BF57DBD000D4C60 /* Assets in Resources */,
 				3D71A6271BEAE59E00FDD533 /* LaunchScreen.storyboard in Resources */,
 				3D71A6241BEAE59E00FDD533 /* Assets.xcassets in Resources */,
 				3D71A6221BEAE59E00FDD533 /* Main.storyboard in Resources */,
