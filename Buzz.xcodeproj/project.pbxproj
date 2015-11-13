@@ -8,7 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		231B88421BEAF28400174AD7 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B88411BEAF28400174AD7 /* Login.swift */; };
-		23AA95381BF57DBD000D4C60 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 23AA95371BF57DBD000D4C60 /* Assets */; };
+		23250A5B1BF588F800FCC47A /* parties_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 23250A5A1BF588F800FCC47A /* parties_bk.png */; };
+		23250A5D1BF58C6400FCC47A /* connect_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 23250A5C1BF58C6400FCC47A /* connect_bk.png */; };
+		23250A5F1BF58CCC00FCC47A /* bruzz_in_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 23250A5E1BF58CCC00FCC47A /* bruzz_in_bk.png */; };
+		235A84461BF584B4003A818A /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 235A84441BF584B4003A818A /* menu.png */; };
+		235A84471BF584B4003A818A /* SALARYMA.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 235A84451BF584B4003A818A /* SALARYMA.ttf */; };
+		2398212B1BF5866700907DDE /* nightlife_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 2398212A1BF5866700907DDE /* nightlife_bk.png */; };
 		3D1D52E11BF56403004ABF54 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DD1BF56403004ABF54 /* Bolts.framework */; };
 		3D1D52E21BF56403004ABF54 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DE1BF56403004ABF54 /* FBSDKCoreKit.framework */; };
 		3D1D52E31BF56403004ABF54 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D1D52DF1BF56403004ABF54 /* FBSDKLoginKit.framework */; };
@@ -33,7 +38,12 @@
 
 /* Begin PBXFileReference section */
 		231B88411BEAF28400174AD7 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		23AA95371BF57DBD000D4C60 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		23250A5A1BF588F800FCC47A /* parties_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = parties_bk.png; path = Buzz/Assets.xcassets/parties_bk.png; sourceTree = "<group>"; };
+		23250A5C1BF58C6400FCC47A /* connect_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = connect_bk.png; path = Buzz/Assets.xcassets/connect_bk.png; sourceTree = "<group>"; };
+		23250A5E1BF58CCC00FCC47A /* bruzz_in_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bruzz_in_bk.png; path = Buzz/Assets.xcassets/bruzz_in_bk.png; sourceTree = "<group>"; };
+		235A84441BF584B4003A818A /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu.png; path = Assets.xcassets/menu.png; sourceTree = "<group>"; };
+		235A84451BF584B4003A818A /* SALARYMA.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = SALARYMA.ttf; path = Assets.xcassets/SALARYMA.ttf; sourceTree = "<group>"; };
+		2398212A1BF5866700907DDE /* nightlife_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nightlife_bk.png; path = Buzz/Assets.xcassets/nightlife_bk.png; sourceTree = "<group>"; };
 		3D1D52DD1BF56403004ABF54 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Frameworks/Bolts.framework; sourceTree = "<group>"; };
 		3D1D52DE1BF56403004ABF54 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Frameworks/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		3D1D52DF1BF56403004ABF54 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Frameworks/FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -76,7 +86,10 @@
 		3D71A6101BEAE59E00FDD533 = {
 			isa = PBXGroup;
 			children = (
-				23AA95371BF57DBD000D4C60 /* Assets */,
+				23250A5E1BF58CCC00FCC47A /* bruzz_in_bk.png */,
+				23250A5C1BF58C6400FCC47A /* connect_bk.png */,
+				23250A5A1BF588F800FCC47A /* parties_bk.png */,
+				2398212A1BF5866700907DDE /* nightlife_bk.png */,
 				3DEEA04D1BF51D5E0059902E /* Bridging-Header.h */,
 				3D71A61B1BEAE59E00FDD533 /* Buzz */,
 				3D71A6301BEAE59E00FDD533 /* BuzzTests */,
@@ -101,6 +114,8 @@
 				3D71A61E1BEAE59E00FDD533 /* ViewController.swift */,
 				3D71A6201BEAE59E00FDD533 /* Main.storyboard */,
 				3D71A6231BEAE59E00FDD533 /* Assets.xcassets */,
+				235A84441BF584B4003A818A /* menu.png */,
+				235A84451BF584B4003A818A /* SALARYMA.ttf */,
 				3D71A6251BEAE59E00FDD533 /* LaunchScreen.storyboard */,
 				3D71A6281BEAE59E00FDD533 /* Info.plist */,
 				3D1D52DD1BF56403004ABF54 /* Bolts.framework */,
@@ -202,10 +217,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23AA95381BF57DBD000D4C60 /* Assets in Resources */,
+				235A84461BF584B4003A818A /* menu.png in Resources */,
+				23250A5B1BF588F800FCC47A /* parties_bk.png in Resources */,
+				235A84471BF584B4003A818A /* SALARYMA.ttf in Resources */,
 				3D71A6271BEAE59E00FDD533 /* LaunchScreen.storyboard in Resources */,
+				2398212B1BF5866700907DDE /* nightlife_bk.png in Resources */,
+				23250A5F1BF58CCC00FCC47A /* bruzz_in_bk.png in Resources */,
 				3D71A6241BEAE59E00FDD533 /* Assets.xcassets in Resources */,
 				3D71A6221BEAE59E00FDD533 /* Main.storyboard in Resources */,
+				23250A5D1BF58C6400FCC47A /* connect_bk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
