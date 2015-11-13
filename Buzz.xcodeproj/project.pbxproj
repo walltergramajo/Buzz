@@ -14,10 +14,6 @@
 		3D71A6241BEAE59E00FDD533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D71A6231BEAE59E00FDD533 /* Assets.xcassets */; };
 		3D71A6271BEAE59E00FDD533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D71A6251BEAE59E00FDD533 /* LaunchScreen.storyboard */; };
 		3D71A6321BEAE59E00FDD533 /* BuzzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D71A6311BEAE59E00FDD533 /* BuzzTests.swift */; };
-		3DEEA04F1BF521F60059902E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA04E1BF521F60059902E /* Bolts.framework */; };
-		3DEEA0531BF5220B0059902E /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */; };
-		3DEEA0541BF5220B0059902E /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */; };
-		3DEEA0551BF5220B0059902E /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,10 +39,6 @@
 		3D71A6311BEAE59E00FDD533 /* BuzzTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzTests.swift; sourceTree = "<group>"; };
 		3D71A6331BEAE59E00FDD533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DEEA04D1BF51D5E0059902E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		3DEEA04E1BF521F60059902E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
-		3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DEEA0551BF5220B0059902E /* FBSDKShareKit.framework in Frameworks */,
-				3DEEA04F1BF521F60059902E /* Bolts.framework in Frameworks */,
-				3DEEA0531BF5220B0059902E /* FBSDKCoreKit.framework in Frameworks */,
-				3DEEA0541BF5220B0059902E /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,10 +85,6 @@
 				3D71A61C1BEAE59E00FDD533 /* AppDelegate.swift */,
 				3D71A61E1BEAE59E00FDD533 /* ViewController.swift */,
 				3D71A6201BEAE59E00FDD533 /* Main.storyboard */,
-				3DEEA0501BF5220B0059902E /* FBSDKCoreKit.framework */,
-				3DEEA0511BF5220B0059902E /* FBSDKLoginKit.framework */,
-				3DEEA0521BF5220B0059902E /* FBSDKShareKit.framework */,
-				3DEEA04E1BF521F60059902E /* Bolts.framework */,
 				3D71A6231BEAE59E00FDD533 /* Assets.xcassets */,
 				3D71A6251BEAE59E00FDD533 /* LaunchScreen.storyboard */,
 				3D71A6281BEAE59E00FDD533 /* Info.plist */,
@@ -352,6 +336,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Buzz",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = Buzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -369,6 +354,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Buzz",
+					"$(PROJECT_DIR)/Frameworks",
 				);
 				INFOPLIST_FILE = Buzz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
